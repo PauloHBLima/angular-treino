@@ -1,0 +1,6 @@
+<p *ngIf="name">O meu nome é Paulo</p>
+<p *ngIf="newName === 'Paulo'; else Diretor ">O Paulo sumiu, mas eu estou aqui !!! pk ?</p>
+
+<ng-template #Diretor>
+  <h1>Paulo está Contratado por ser um ótimo desenvolvedor !!! </h1>
+</ng-template>
