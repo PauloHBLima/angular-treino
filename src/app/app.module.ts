@@ -12,6 +12,10 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { SecondChangeEmmiterComponent } from './components/second-change-emmiter/second-change-emmiter.component';
 import { FatherChangeEmmiterComponent } from './components/father-change-emmiter/father-change-emmiter.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -29,12 +33,16 @@ import { FatherChangeEmmiterComponent } from './components/father-change-emmiter
     ChangeNumberComponent,
     SecondChangeEmmiterComponent,
     FatherChangeEmmiterComponent,
+    ListRenderComponent,
+    PipesComponent,
+    TwoWayBindingComponent,
 
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
