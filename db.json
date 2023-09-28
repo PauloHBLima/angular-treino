@@ -1,0 +1,9 @@
+{
+  "animals": [
+    {"id": 1 , "name": "Paulo", "type": "Junior", "age": 29},
+    {"id": 1 , "name": "Tom", "type": "Cat", "age": 5},
+    {"id": 1 , "name": "Jerry", "type": "Rato", "age": 5},
+    {"id": 1 , "name": "Pé de Pano", "type": "Horse", "age": 12},
+    {"id": 1 , "name": "Superman", "type": "Hero", "age": 35}
+  ]
+}
