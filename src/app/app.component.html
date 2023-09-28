@@ -1,11 +1,8 @@
-<app-first-project></app-first-project>
-<app-parent-data [name]="userName" [adminTeste]="userMaster" [registerCarros]="newCarros"></app-parent-data>
-<app-parent-data-teste [animesConhecidos]="animes"></app-parent-data-teste>
-<app-directives></app-directives>
-<app-renderif-teste></app-renderif-teste>
-<app-teste-events></app-teste-events>
-<app-emitter></app-emitter>
-<app-father-change-emmiter></app-father-change-emmiter>
-<app-list-render></app-list-render>
-<app-pipes></app-pipes>
-<app-two-way-binding></app-two-way-binding>
+<p>Header</p>
+<nav>
+  <a routerLink="/">Home | </a>
+  <a routerLink="list">Lista</a>
+</nav>
+<h1>Bem vindo ! </h1>
+<router-outlet></router-outlet>
+<p>Footer</p>

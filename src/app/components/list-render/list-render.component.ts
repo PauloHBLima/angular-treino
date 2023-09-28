@@ -24,12 +24,9 @@ export class ListRenderComponent implements OnInit {
   animalDetails = ''
 
 
-  constructor(private listService: ListService) {
+  constructor(private listService: ListService) {}
 
-  }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   showAge(animal: Animal) {
     this.animalDetails = `O Pet ${animal.name} tem ${animal.age} anos!`
