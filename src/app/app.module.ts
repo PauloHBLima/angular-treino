@@ -17,6 +17,7 @@ import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 
 
@@ -37,6 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
     ListRenderComponent,
     PipesComponent,
     TwoWayBindingComponent,
+    ItemDetailComponent,
 
 
   ],
